@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.redes:hover {
+    color: blueviolet;
+}
+
+.contatoForm {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 30px 5px;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+
+
+.principal{
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    border: solid rgb(68, 57, 6) 5px;
+  
+}
+/* ----------------------------------------------------FILTROS---------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------PRODUTOS---------------------------------------------------------- */
+
+.aba-produtos{
+    background-color: rgb(241, 241, 241);;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 80px auto;
+    padding: 20px;
+    width: 1250px;
+    border-radius: 10px;
+}
+
+
+.produto{
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.produto:hover{
+    background-color: rgb(255, 88, 16);
+    box-shadow: #884000 0px 0px 2px 0px;
+    transition: 500ms;
+    color: #000;
+}
+.imagem-produto{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 90%;
+
+}
+.desc-valor{
+    color: rgb(239, 75, 4);
+}
+.rodape{
+    margin-top: 100px;
+}
+
+/* --------------------------------------------------------------------------------------RESPONSIVEL PRODUTOS */
+@media ( max-width: 576px){
+    .aba-produtos{
+        width: 100%;
+    }
+    .aba-produtos-linha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #carouselExampleCaptions{
+        display: none;
+    }
+}

@@ -1,0 +1,68 @@
+.item-principal{
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    margin: auto;
+}
+
+.item-informacao{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-dados{
+    padding: 20px;
+    width: 740px;
+}
+
+.item-titulo h2{
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------IMAGEM */
+.item-imagem{
+    width: 550px;
+
+}
+.item-imagem img{
+
+    width: 300px;
+}
+/* --------------------------------------------------------------------------VALORES */
+.item-valores span{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px ;
+}
+.item-valorantigo{
+    text-decoration: line-through;  
+    color: rgb(219, 153, 11);
+}
+.item-valornovo{
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* --------------------------------------------------------------------------DESCRIÇÃO */
+.item-descricao{
+    margin-top: 20px;
+}
+
+
+
+/* --------------------------------------------------------------------------Opções do produto */
+.item-adicionarcarrinho button{
+    font-size: 12PX;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(38, 136, 112);
+    border:none ;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+
+

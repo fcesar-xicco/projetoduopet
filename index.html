@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRDVEXG8BS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XRDVEXG8BS');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página com Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="src/css/estilo.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+
+
+
+  <a name="home"></a>
+  <!-- Header barra de pesquisa-->
+  <header class="bg border-bottom mb-0 container">
+    <div class="row py-1  align-items-center">
+      <div class="logo col-sm-3">
+        <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 20px;" alt="Logo"></a>
+      </div>
+
+      <div class="col-sm-5 mt-4 mb-3">
+        <input type="text" placeholder="O que você procura?" name="busca" class="busca">
+        <span class="buscar-produto">
+          <img src="src/imagens/lupa.png" alt="" width="30px">
+        </span>
+
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light col-sm-4">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item"><a class="nav-link" href="#home">Home</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#mensagem">Mensagem</a></li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+
+  <!-- ---------------------------------------------------------------------------------------------------CARROCEL -->
+
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/BannerPrincipal/bannercarrocel1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/BannerPrincipal/bannercarrocel2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/BannerPrincipal/bannercarrocel3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/BannerPrincipal/bannercarrocel5.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <hr>
+  <!------------------------------------------------------------------------------------------------FINAL CARROCEL -->
+
+  <section class="d-flex justify-content-between flex-column anunciosprincipal ">
+    <h3>CAMPEÃO EM VENDAS</h3>
+
+    <div class="d-flex justify-content-center m-1 principal container-fluid">
+      <div class="row">
+        <div class="card m-3 col-sm-3" style="width: 15rem;">
+          <img src="src/imagens/coleira.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text" style="font-size: 12px;">Kit Coleira Cachorro e Guia Resistente...</p>
+            <a href="item.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card m-3 col-sm-3" style="width: 15rem;">
+          <img src="src/imagens/racao.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ração Nitrulus</h5>
+            <p class="card-text" style="font-size: 12px;">Ração Seca Nutrilus Pro+ Frango & Carne para Cães...</p>
+            <a href="item.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card m-3 col-sm-3" style="width: 15rem;">
+          <img src="src/imagens/kitShampoo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kit Shampoo</h5>
+            <p class="card-text" style="font-size: 12px;">Shampoo que Hidrata perfuma e amacia a pelagem...</p>
+            <a href="item.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card m-3 col-sm-3" style="width: 15rem;">
+          <img src="src/imagens/premier-cookie.jpg " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Torrões Pipicat</h5>
+            <p class="card-text" style="font-size: 12px;">Cookie Premier para Cães com Frutas e aveias...</p>
+            <a href="item.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="produtos.html" class="ver-ofertas">Ver todas as ofertas da semana...</a>
+  </section>
+
+
+
+  <!-- -------------------------------------------------------------------------------------------------------CONTATOS-MAPA -->
+
+
+  <hr>
+
+  <section class="container-fluid ">
+    <div class="row d-flex justify-content-center">
+      <section class="endereco col-sm-9">
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+          <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <script>(function () {
+                var setting = { "query": "Petz Araçatuba - Avenida Brasília - Vila Sao Paulo, Araçatuba - SP, Brasil", "width": 403, "height": 284, "satellite": false, "zoom": 12, "placeId": "ChIJDbzGb-BDlpQR6o1R1IKZ3Iw", "cid": "0x8cdc9982d4518dea", "coords": [-21.2332683, -50.4396869], "cityUrl": "/brazil/aracatuba-13047", "cityAnchorText": "Mapa de Araçatuba, Sao Paulo, Brasil", "lang": "pt", "queryString": "Petz Araçatuba - Avenida Brasília - Vila Sao Paulo, Araçatuba - SP, Brasil", "centerCoord": [-21.2332683, -50.4396869], "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "1195481" };
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=1195481';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script>
+          </div>
+      </section>
+
+      <div class="aba-mensagem col-sm-3">
+        <!-- <h5>Contato</h5> -->
+        <textarea name="" id="area" class="area-mensagem col-sm-6" placeholder="Deixe sua mensagem"></textarea>
+        <input type="text" class="nome col-sm-6" placeholder="Digite seu Nome">
+        <input type="text" class="email col-sm-6" placeholder="Digite seu Email">
+        <button class="botao-enviar">Enviar</button>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <!-- Footer -->
+  <style>
+    .redes:hover {
+      color: blueviolet;
+    }
+  </style>
+  <a name="contato"></a>
+  <footer class="bg-dark text-light py-4 ">
+    <div class="container text-center">
+      <div class="mb-3">
+        <img src="src/imagens/logo.jpg" style="border-radius: 10px;" alt="Logo" height="40">
+      </div>
+      <div class="social-links mb-3 ">
+        <a href="#" class="text-light mx-2"><i class="bi bi-facebook redes"></i></a>
+        <a href="#" class="text-light mx-2"><i class="bi bi-instagram redes"></i></a>
+        <a href="#" class="text-light mx-2 "><i class="bi bi-twitter redes"></i></a>
+      </div>
+      <p>&copy; 2025 - Todos os direitos reservados.</p>
+      <h6 class="telefones" style="margin: -20px;">(18) 99105-0097 ou (18) 99176-0742 ou (14) 99640-7007</h6>
+    </div>
+  </footer>
+
+  <foot class="teste">
+  </foot>
+  <a class="btn btn-primary botaotopo" style="position: fixed; bottom: 10px; right: 10px;" href="#home" role="button"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <!-- Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

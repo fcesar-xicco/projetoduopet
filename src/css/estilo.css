@@ -1,0 +1,123 @@
+.posicao {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+body{
+    background-color: beige;
+}
+
+
+.nav-item, .nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(239, 75, 4);
+}
+.aba-contato {
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+}
+.busca{
+    width:350px;
+    height: 35px; 
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+/* ---------------------------------------------------------------------ABA MAPA E MENSAGEM */
+.aba-mensagem {
+
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco {
+    width: 850px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#area {
+    width: 350px;
+    height: 150px;
+}
+
+.botao-enviar {
+    width: 100px;
+}
+
+/* ---------------------------------------------------------------------FINAL ABA MAPA E MENSAGEM */
+.logo img{
+    width: 110px;
+    height: 110px;
+}
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+.ver-ofertas{
+    text-align: center;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+
+/* -----------------------------------------------------------------------------------RESPONSIVEL PRINCIPAL */
+@media ( max-width: 576px){
+    header, footer{
+        width: 100%;
+    }
+    
+    body{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+ 
+    }
+.principal div{
+    display: flex;
+    flex-direction: column !important;
+    text-align: center !important;
+
+}
+
+    .busca{
+        width:250px;
+        height: 35px; 
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .aba-mensagem{
+        align-items: center;
+    }
+
+    .aba-mensagem input {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .endereco {
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    #area {
+        width: 250px;
+        height: 150px;
+    }
+    .telefones{
+        font-size: 13px;
+    }
+}

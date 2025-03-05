@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRDVEXG8BS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XRDVEXG8BS');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/estilos-produtos.css">
+
+</head>
+
+<body>
+    <a name="home"></a>
+    <!-- Header barra de pesquisa-->
+    <header class="bg border-bottom mb-0 container">
+        <div class="row py-1  align-items-center">
+            <div class="logo col-sm-3">
+                <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 20px;" alt="Logo"></a>
+            </div>
+
+            <div class="col-sm-5 mt-4 mb-3">
+                <input type="text" placeholder="O que você procura?" name="busca" class="busca">
+                <span class="buscar-produto">
+                    <img src="src/imagens/lupa.png" alt="" width="30px">
+                </span>
+
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light col-sm-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#mensagem">Mensagem</a></li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <div class="banner">
+        <img src="src/imagens/banner.jpg" class="" alt="">
+    </div>
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------------CARROCEL -->
+    <!-- <img src="src/Banner/bannerprodutos.png" class="imagem-banner" alt=""> -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/bannerProdutos/bannerA.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/bannerProdutos/bannerB.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/bannerProdutos/bannerC.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/bannerProdutos/bannerD.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------FINAL CARROCEL -->
+    <main id="principal container-fluid"">
+
+
+
+
+
+
+
+
+
+
+        <section class=" aba-produtos">
+        <!-- -------------------------------------------------------------------------------PRODUTO 1 -->
+        <div class=" row aba-produtos-linha ">
+            <a href="item.html" class="col-sm-3">
+                <aside class="produto ">
+                    <h2>Premier Cookie</h2>
+                    <div>
+                        <img src="src/imagens/premier-cookie.jpg" class="imagem-produto" alt="">
+                    </div>
+                    <div class="descricao">
+
+                        <p>Premier Cookie Frutas Vermelhas Raça Pequena 250G Para Cães.</p>
+                    </div>
+                    <div class="valores">
+                        <h4><span class="desc-valor">a partir </span>R$ 15,00</h4>
+                    </div>
+
+                </aside>
+
+            </a>
+
+
+            <!-- -------------------------------------------------------------------------------PRODUTO 2 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Kit Shampoo</h2>
+                <div>
+                    <img src="src/imagens/kitShampoo.jpg" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+
+                    <p> Hidrata, limpa, perfuma e amacia a pelagem deixando mais brilhosa. </p>
+                </div>
+                <div class="valores">
+                    <h4><span class="desc-valor">a partir </span>R$ 25,00</h4>
+                </div>
+
+            </aside>
+
+            <!-- -------------------------------------------------------------------------------PRODUTO 3 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Coleira</h2>
+                <div>
+                    <img src="src/imagens/coleira.png" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+
+                    <p>Segurança e Controle para Cães Fortes e grandes.</p>
+                </div>
+                <div class="..valores">
+                    <h4><span class="desc-valor">a partir </span>R$ 30,00</h4>
+                </div>
+
+            </aside>
+            <!-- -------------------------------------------------------------------------------PRODUTO 4 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Kelco Areia</h2>
+                <div>
+                    <img src="src/imagens/pipicat.jpg" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+
+                    <p>Kelco Areia Higiênica Pipicat Campestre 4Kg Para Gatos.</p>
+                </div>
+                <div class="valores">
+                    <h4><span class="desc-valor">a partir </span>R$ 25,00</h4>
+                </div>
+
+            </aside>
+        </div> <!--------------------- final do row -->
+
+
+
+        <div class="row aba-produtos-linha  ">
+            <!-- -------------------------------------------------------------------------------PRODUTO 5 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Ração Nutrilus</h2>
+                <div>
+                    <img src="src/imagens/racao.png" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+                    <p>Ração Seca Nutrilus Pro+ Frango & Carne para Cães Adultos.</p>
+                </div>
+                <div class="valores">
+                    <h4> <span class="desc-valor">a partir </span> R$ 50,99</h4>
+                </div>
+
+            </aside>
+            <!-- -------------------------------------------------------------------------------PRODUTO 6 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Tapetes</h2>
+                <div>
+                    <img src="src/imagens/toalhas.jpg" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+
+                    <p>Super Secão Citrus Tapetes Higiênicos 30 Unidades Para Cães.</p>
+                </div>
+                <div class="valores">
+                    <h4><span class="desc-valor">a partir </span>R$ 89,00</h4>
+                </div>
+            </aside>
+
+            <!-- -------------------------------------------------------------------------------PRODUTO 7 -->
+            <aside class="produto" class="col-sm-3">
+                <h2>Areia Higiênica </h2>
+                <div>
+                    <img src="src/imagens/areia7.png" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+                    <p>Areia Higiênica Meau Biodegradável Grãos Médios para Gatos.</p>
+                </div>
+                <div class="valores">
+                    <h4> <span class="desc-valor">a partir </span> R$ 24,99</h4>
+                </div>
+
+            </aside>
+            <!-- -------------------------------------------------------------------------------PRODUTO 8-->
+            <aside class="produto" class="col-sm-3">
+                <h2>Bowl Future Pet</h2>
+                <div>
+                    <img src="src/imagens/travessa.jpg" class="imagem-produto" alt="">
+                </div>
+                <div class="descricao">
+
+                    <p>Material resistente à ferrugem e tem peso para não deslizar.</p>
+                </div>
+                <div class="valores">
+                    <h4><span class="desc-valor">a partir </span>R$ 37,00</h4>
+                </div>
+            </aside>
+
+
+
+
+
+        </div> <!--------------------- final do row -->
+
+
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-light py-4 rodape ">
+        <a name="contato"></a>
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 10px;" alt="Logo"
+                        height="40"></a>
+            </div>
+            <div class="social-links mb-3 ">
+                <a href="#" class="text-light mx-2"><i class="bi bi-facebook redes"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-instagram redes"></i></a>
+                <a href="#" class="text-light mx-2 "><i class="bi bi-twitter redes"></i></a>
+            </div>
+            <p>&copy; 2025 - Todos os direitos reservados.</p>
+            <h6>(18) 99105-0097 ou (18) 99176-0742 ou (14) 99640-7007</h6>
+        </div>
+    </footer>
+
+
+    <a class="btn btn-primary botaotopo" style="position: fixed; bottom: 10px; right: 10px;" href="#home"
+        role="button"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Bootstrap JS -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
