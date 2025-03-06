@@ -74,6 +74,13 @@ h3{
 
 /* -----------------------------------------------------------------------------------RESPONSIVEL PRINCIPAL */
 @media ( max-width: 576px){
+    .aba-principal{
+        width: 98%;
+        margin: auto;
+    }
+    
+    
+    
     header, footer{
         width: 100%;
     }
