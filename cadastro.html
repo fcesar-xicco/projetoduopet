@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 
 <head>
+
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRDVEXG8BS"></script>
     <script>
@@ -20,110 +22,113 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="stylesheet" href="src/css/estilo-login.css">
-</head>     
+</head>
 
 <body>
-    <a name="home"></a>
-    <!-- Header barra de pesquisa-->
-    <header class="bg border-bottom mb-0">
-        <div class="container  d-flex justify-content-between align-items-center">
-            <div class="logo ">
-                <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 20px;"   alt="Logo" height="50"></a> 
-            </div>
-            <h3 style="color: rgb(213, 132, 33);">Criar uma conta é rápido,
-                fácil e gratuito! </h3>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                    </ul>
+    <main class="principal-cadastro">
+        <!-- <a name="home"></a> -->
+        <!-- Header barra de pesquisa-->
+        <header class="bg border-bottom mb-0  ">
+            <div class="container  d-flex justify-content-between align-items-center cabecalho">
+                <div class="logo ">
+                    <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 20px;" alt="Logo"
+                            height="50"></a>
                 </div>
-            </nav>
-        </div>
-        <div class="banner">
-            <img src="src/imagens/banner.jpg" class="" alt="">
-        </div>
-    </header>
-
-    <img src="src/BannerPrincipal/bannerlogin.jpg" width="100%" alt="">
-  
-
-
-
-
-
-
-    <a name="cadastro.html"></a>
-    <section class="aba-cadastro" style="margin: 30px auto;">
-        <form class="aba-cadastroUsuario" action="" method="">
-            <section class="cartao" style="box-sizing: border-box;">
-                <legend class="">Crie sua conta</legend>
-                <aside class="setorCadastro">
-                    <input name="nome" id="nome" type="text" placeholder="Nome" required>
-                    <input name="email" id="email" class="input" type="email" placeholder="Email" required>
-                    <input name="contato" id="contato" type="number" placeholder="Telefone para contato" required>
-                </aside>
-                </aside> 
-                <aside class="setorCadastro">
-                    <input name="nascimento" id="nascimento" type="date" placeholder="Data de nascimento" required>
-                    <input name="cpf" id="cpf" type="text" maxlength="14" placeholder="CPF" required>
-                    <input name="senha" id="senha" type="password" placeholder="Senha:" required>
-                    <input name="senha" id="senha" type="password" placeholder="Confirme a sua senha:" required>
-                </aside>
-                <button class="botao-enviar">Cadastrar</button>
-            </section>
-        </form>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-4 rodape ">
-        <a name="contato"></a>
-        <div class="container text-center">
-            <div class="mb-3">
-                <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 10px;"  alt="Logo" height="40"></a>
+                <h3 style="color: rgb(213, 132, 33);">Criar uma conta é rápido,
+                    fácil e gratuito! </h3>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li> -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <div class="social-links mb-3 ">
-                <a href="#" class="text-light mx-2"><i class="bi bi-facebook redes"></i></a>
-                <a href="#" class="text-light mx-2"><i class="bi bi-instagram redes"></i></a>
-                <a href="#" class="text-light mx-2 "><i class="bi bi-twitter redes"></i></a>
+            <img src="src/BannerPrincipal/bannerlogin.jpg" class="banner-cadastro" width="100%" alt="">
+        </header>
+
+        
+
+
+
+
+
+
+
+       
+        <section class="aba-cadastro" style="margin: 30px auto;">
+            <form class="aba-cadastroUsuario" action="" method="">
+                <section class="cartao" style="box-sizing: border-box;">
+                    <legend class="">Crie sua conta</legend>
+                    <aside class="setorCadastro">
+                        <input name="nome" id="nome" type="text" placeholder="Nome" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                        <input name="contato" id="contato" type="number" placeholder="Telefone para contato" required>
+                    </aside>
+                    </aside>
+                    <aside class="setorCadastro">
+                        <input name="nascimento" id="nascimento" type="date" placeholder="Data de nascimento" required>
+                        <input name="cpf" id="cpf" type="text" maxlength="14" placeholder="CPF" required>
+                        <input name="senha" id="senha" type="password" placeholder="Senha:" required>
+                        <input name="senha" id="senha" type="password" placeholder="Confirme a sua senha:" required>
+                    </aside>
+                    <button class="botao-enviar">Cadastrar</button>
+                </section>
+            </form>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light py-4 rodape ">
+            <a name="contato"></a>
+            <div class="container text-center">
+                <div class="mb-3">
+                    <a href="index.html"><img src="src/imagens/logo.jpg" style="border-radius: 10px;" alt="Logo"
+                            height="40"></a>
+                </div>
+                <div class="social-links mb-3 ">
+                    <a href="#" class="text-light mx-2"><i class="bi bi-facebook redes"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="bi bi-instagram redes"></i></a>
+                    <a href="#" class="text-light mx-2 "><i class="bi bi-twitter redes"></i></a>
+                </div>
+                <p>&copy; 2025 - Todos os direitos reservados.</p>
+                <h6 style="margin: -20px;">(18) 99105-0097 ou (18) 99176-0742 ou (14) 99640-7007</h6>
             </div>
-            <p>&copy; 2025 - Todos os direitos reservados.</p>
-            <h6 style="margin: -20px;">(18) 99105-0097 ou (18) 99176-0742 ou (14) 99640-7007</h6>
-        </div>
-    </footer>
+            <a class="btn btn-primary botaotopo" style="position: fixed; bottom: 10px; right: 10px;" href="#home"
+            role="button"><i class="bi bi-arrow-up-short"></i></a>
+        </footer>
 
 
-    <a class="btn btn-primary botaotopo" style="position: fixed; bottom: 10px; right: 10px;" href="#home"
-        role="button"><i class="bi bi-arrow-up-short"></i></a>
+        
+    </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

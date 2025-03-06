@@ -7,6 +7,9 @@ body{
     background-color: beige;
 }
 
+.tela-atual{
+    color: rgb(239, 75, 4);
+}
 
 .nav-item, .nav-link{
     color: rgb(0, 0, 0);
@@ -28,7 +31,9 @@ body{
     border-radius: 15px;
     padding: 10px;
 }
-
+/* .item-promo{
+    background-color: rgb(204, 204, 204)  ;
+} */
 
 /* ---------------------------------------------------------------------ABA MAPA E MENSAGEM */
 .aba-mensagem {
@@ -75,7 +80,7 @@ h3{
 /* -----------------------------------------------------------------------------------RESPONSIVEL PRINCIPAL */
 @media ( max-width: 576px){
     .aba-principal{
-        width: 98%;
+        width: 95%;
         margin: auto;
     }
     

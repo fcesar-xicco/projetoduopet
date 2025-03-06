@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: beige;
     font-size: 12px;
 }
+
+
 .redes:hover {
     color: blueviolet;
 }
