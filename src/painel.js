@@ -1,25 +1,12 @@
 // formulario - validações dos cadastro
 let areaCachorro = document.getElementById('area-cachorro')
 let abaPrincipal = document.querySelector('main.aba-principal')
-var body = document.getElementsByTagName('body')[0]
+var body = document.getElementsByTagName('body')
 // body.style.backgroundImage = "url('../imagens/ossinho2.jpg')"
+var fundoRicardo = document.getElementById('fundoRicardo');
 
 
 areaCachorro.addEventListener('click',() =>{
     
-    mudarFundo(abaPrincipal)
-    
+    document.body.style.backgroundImage = "url('../src/ossinho.jpg')";
 })
-function mudarFundo(fundo){
-    const reader = new FileReader()
-    
-    reader.readAsDataURL(ossinho.jpg)
-    
-    reader.onload = function(evento){
-        const urlmage = evento.target.result
-
-        abaPrincipal.style.backgroundImage = `url('${urlmage}')`
-        alert()
-
-    }
-}
