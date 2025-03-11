@@ -1,0 +1,263 @@
+.aba-sacola-geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rgb(239, 239, 239); */
+}
+
+.pagina-compras {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+H4 {
+    margin: 0PX;
+    margin-top: 30PX;
+    font-weight: bold;
+    color: rgb(181, 48, 0);
+}
+
+/* --------------------------------------------------------------------------------ITEM ADICIONADO */
+
+.produtoadicionado {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 8px;
+    padding: 0px 10px;
+
+}
+
+.titulovendas {
+    display: flex;
+}
+
+h5:first-child {
+    /*posição dos titulos   'titulo descrição' */
+    margin-right: 177px;
+}
+
+h5 {
+    /*posição dos titulos   ' demais titulos '  */
+    font-weight: bold;
+    margin: 5px 18px;
+}
+
+/* ------------------------------------------------------------------------------------estilo do item selecionado */
+.aba-lista {
+    padding: 0px 10px 0px 0px;
+}
+
+.dados-produto {
+    text-align: center;
+    width: 320px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-produto .img-item img {
+    width: 48px;
+}
+
+.desconto {
+    text-align: center;
+    width: 120px;
+}
+
+.desconto-feito {
+    text-decoration: line-through;
+    font-weight: 900;
+    color: rgb(157, 155, 155);
+
+}
+
+.preco {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+
+.quantidade {
+    text-align: center;
+    width: 105px;
+}
+
+.quantidade input {
+    width: 35px;
+    text-align: center;
+}
+
+.total {
+    font-weight: 900;
+    text-align: center;
+    width: 90px;
+}
+.total-responsivel{
+    display: none;
+}
+/* -----------------------------------------------------------------------------------------------LADO A - CARTÃO PAGAMENTOS */
+
+.cartao-pagamento {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cartao-credito {
+    margin: auto 0px;
+}
+
+.alterar-pagamento {
+    text-align: end;
+}
+
+.explicacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explicacao p {
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------LADO B */
+
+.lado-b {
+
+    padding: 2px;
+    border-radius: 0px;
+    margin: auto 20px;
+    width: 380PX;
+    border-left: rgb(210, 210, 210) solid 1px;
+    height: 90%;
+}
+
+.forma-pagamentos {
+
+    margin: 0px 10px 0px 30px;
+    padding: 0px 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: solid 1px rgb(210, 209, 209);
+}
+
+.linhas-pag {
+    padding: 0px 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linhas-pag p {
+    margin: 1px;
+}
+
+.confirmar-compra {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmar-compra button {
+    font-weight: bold;
+    width: 280px;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 20px;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------RESPONSIVEL */
+
+@media (max-width: 576px) {
+    .aba-sacola-geral {
+        width: 95% !important;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .total,.desconto,.quantidade,.preco, .deletar{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 175px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: end;
+    }
+    .deletar{
+        width: 350px;
+        height: 50px;
+    }
+
+    .produtoadicionado {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 300PX;
+    }
+
+    .metodos-pagamentos,    
+    .cartao-pagamento {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulovendas {
+        display: none;
+    }
+
+    .aba-lista,.pagina-compras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.forma-pagamentos{
+    width: 380px;
+    margin: auto;
+}
+
+.total-responsivel{
+    display: block;
+}
+
+    
+}
